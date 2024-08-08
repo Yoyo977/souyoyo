@@ -1,0 +1,52 @@
+body{
+    /* 背景色 */
+    background-color: #c2dffb;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f3e7e7;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.register-field-icon{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+.control-group{
+    margin-bottom: 10px;
+}
+input{
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 250px;
+}
+.btn {
+    background-color: #185e8d;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+
+
+
