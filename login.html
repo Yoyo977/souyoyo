@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form action="#" method="post">
     <section class="login">
         <h1>Login</h1>
         <form class="login-form">
             <div class="control-group">
                 <label class="login-field-icon" for="login-name">Name</label>
-                <input type="text" class="login-field" value="" placeholder="username" id="login-name" required>
+                <input type="text" class="login-field" name="login-name" placeholder="username" id="login-name" required>
             </div>
             <div class="control-group">
                 <label class="login-field-icon" for="login-pass">Password</label>
-                <input type="password" class="login-field" value="" placeholder="password" id="login-pass" required>
+                <input type="password" class="login-field" name="login-name" placeholder="password" id="login-pass" required>
             </div>
             <div class="control-group">
                 <button class="btn">Login</button>
@@ -26,5 +27,6 @@
             </div>
         </form>
     </section>
+    </form>
 </body>
 </html>

@@ -9,37 +9,40 @@
 </head>
 
 <body>
-    <div class="register"></div>
-    <h1>新規登録について</h1>
-    <div class="navbar">
-        <a href="#">トップページ</a>
-        <a href="#">お知らせ</a>
-        <a href="#">サポート</a>
-    </div>
-    <form class="register-form">
-        <div class="control-group">
-            <label class="register-field-icon" for="login-name">Name</label>
-            <input type="text" class="login-field" value="" placeholder="名前を入力してください" id="login-name" required>
+    <form action="#" method="post">
+        <div class="register"></div>
+        <h1>新規登録について</h1>
+        <div class="navbar">
+            <a href="#">トップページ</a>
+            <a href="#">お知らせ</a>
+            <a href="#">サポート</a>
         </div>
-        <div class="control-group">
-            <label class="register-field-icon" for="login-email">Email</label>
-            <input type="text" class="login-field" value="" placeholder="メールアドレス入力してください" id="login-email" required>
+        <form class="register-form">
+            <div class="control-group">
+                <label class="register-field-icon" for="login-name">Name</label>
+                <input type="text" class="login-field" name="login-name" placeholder="名前を入力してください" id="login-name" required>
+            </div>
+            <div class="control-group">
+                <label class="register-field-icon" for="login-email">Email</label>
+                <input type="text" class="login-field" name="login-name" placeholder="メールアドレス入力してください" id="login-email" required>
+            </div>
+            <div class="control-group">
+                <label class="register-field-icon" for="login-pass">Password</label>
+                <input type="password" class="login-field" name="login-name" placeholder="パスワードを設定してください" id="login-pass"
+                    required>
+            </div>
+        </form>
+
+        <div class="cat-img">
+            <img src="a.png" width="90" height="120" />
+            <img src="b.png" width="90" height="120" />
+            <img src="c.png" width="90" height="120" />
         </div>
-        <div class="control-group">
-            <label class="register-field-icon" for="login-pass">Password</label>
-            <input type="password" class="login-field" value="" placeholder="パスワードを設定してください" id="login-pass" required>
-        </div>
+
+        <footer>
+            <button class="btn">送信</button>
+        </footer>
     </form>
-
-    <div class="cat-img">
-        <img src="a.png" width="90" height="120"/>
-        <img src="b.png" width="90" height="120"/>
-        <img src="c.png" width="90" height="120"/>
-    </div>
-
-    <footer>
-        <button class="btn">送信</button>
-    </footer>
 </body>
 
 </html>
